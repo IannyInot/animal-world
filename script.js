@@ -113,20 +113,22 @@ displayActivities();
 // MY EXERCISES
 // =================================
 
+
 const exercises = [
-    { title: "Exercise 1", link: "exercises/EXE1_INOT_IANNY.HTML" },
-    { title: "Exercise 2", link: "exercises/EXE2_INOT_IANNY.HTML" },
-    { title: "Exercise 3", link: "exercises/EXE3_INOT_IANNY.HTML" },
-    { title: "Exercise 4", link: "exercises/EXE4_INOT_IANNY.HTML" },
-    { title: "Exercise 5", link: "exercises/EXE5_INOT_IANNY.HTML" },
-    { title: "Exercise 6", link: "exercises/EXE6_INOT_IANNY.HTML" },
-    { title: "Exercise 7", link: "exercises/EXE7_INOT_IANNY.HTML" },
-    { title: "Exercise 8", link: "exercises/EXE8_INOT_IANNY.HTML" },
-    { title: "Exercise 9", link: "exercises/EXE9_INOT_IANNY.HTML" },
-    { title: "Exercise 10", link: "exercises/EXE10_INOT_IANNY.HTML" },
-    { title: "Exercise 11", link: "exercises/EXE11_INOT_IANNY.HTML" },
-    { title: "Exercise 12", link: "exercises/EXE12_INOT_IANNY.HTML" }
+    { title: "Exercise 1", link: "EXE1_INOT_IANNY.html" },
+    { title: "Exercise 2", link: "EXE2_INOT_IANNY.html" },
+    { title: "Exercise 3", link: "EXE3_INOT_IANNY.html" },
+    { title: "Exercise 4", link: "EXE4_INOT_IANNY.html" },
+    { title: "Exercise 5", link: "EXE5_INOT_IANNY.html" },
+    { title: "Exercise 6", link: "EXE6_INOT_IANNY.html" },
+    { title: "Exercise 7", link: "EXE7_INOT_IANNY.html" },
+    { title: "Exercise 8", link: "EXE8_INOT_IANNY.html" },
+    { title: "Exercise 9", link: "EXE9_INOT_IANNY.html" },
+    { title: "Exercise 10", link: "EXE10_INOT_IANNY.html" },
+    { title: "Exercise 11", link: "EXE11_INOT_IANNY.html" },
+    { title: "Exercise 12", link: "EXE12_INOT_IANNY.html" }
 ];
+
 function displayExercises() {
     const container = document.getElementById("exercises-container");
     
